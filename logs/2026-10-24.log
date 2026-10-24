@@ -1,0 +1,6 @@
+2026-10-24 14:54:44 | INFO     | src.main:lifespan:15 - Karry Agent starting | env=development
+2026-10-24 14:54:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-24 14:54:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.93ms
+2026-10-24 14:54:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-24 14:54:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 22.08ms
+2026-10-24 14:55:28 | INFO     | src.main:lifespan:18 - Karry Agent shutdown

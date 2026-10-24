@@ -1,1 +1,5 @@
 .idea/
+.env
+docker/mysql/data/
+docker/redis/data/
+docker/minio/data/
