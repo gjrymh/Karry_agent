@@ -12,6 +12,8 @@ from src.core.config import get_settings
 # 导入 Base 和所有 Model（确保 Alembic 能发现表结构）
 from src.core.base_model import Base
 import src.modules.user.model
+import src.modules.permission.model
+import src.modules.role.model
 # import src.modules.user.model  # noqa: F401  每新增模块在此导入
 
 # this is the Alembic Config object, which provides

@@ -4,3 +4,60 @@
 2026-10-24 14:54:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
 2026-10-24 14:54:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 22.08ms
 2026-10-24 14:55:28 | INFO     | src.main:lifespan:18 - Karry Agent shutdown
+2026-10-24 17:06:25 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:11:56 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-24 17:11:56 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.83ms
+2026-10-24 17:11:57 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-24 17:11:57 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 32.51ms
+2026-10-24 17:12:08 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-24 17:19:11 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:24:42 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:24:42 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-24 17:24:42 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 39.29ms
+2026-10-24 17:24:42 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-24 17:24:42 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 3.77ms
+2026-10-24 17:24:42 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:25:44 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:25:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-24 17:25:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.57ms
+2026-10-24 17:25:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-24 17:25:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 29.35ms
+2026-10-24 17:25:59 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-24 17:25:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 53.86ms
+2026-10-24 17:33:27 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:33:29 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:33:39 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 42.94ms
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha/image/fdeaea38-8bcc-44cc-9d5c-66c66d3b3b70
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha/image/fdeaea38-8bcc-44cc-9d5c-66c66d3b3b70 status=200 2.56ms
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 3.36ms
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha/image/fdeaea38-8bcc-44cc-9d5c-66c66d3b3b70
+2026-10-24 17:33:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha/image/fdeaea38-8bcc-44cc-9d5c-66c66d3b3b70 status=200 1.64ms
+2026-10-24 17:33:39 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:41:27 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:41:34 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:41:38 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-24 17:41:38 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.64ms
+2026-10-24 17:41:38 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-24 17:41:38 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 29.41ms
+2026-10-24 17:42:51 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:42:53 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:50:12 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:50:14 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:50:21 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:50:21 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-24 17:50:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 43.76ms
+2026-10-24 17:50:21 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-24 17:50:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 2.23ms
+2026-10-24 17:50:21 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:51:33 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-24 17:51:40 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-24 17:51:43 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-24 17:51:43 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.26ms
+2026-10-24 17:51:43 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-24 17:51:43 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 26.40ms
+2026-10-24 17:52:16 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-24 17:52:16 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 48.01ms
+2026-10-24 17:53:42 | INFO     | src.main:lifespan:19 - Karry Agent shutdown

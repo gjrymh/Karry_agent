@@ -1,0 +1,61 @@
+2026-10-27 11:02:54 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 11:02:57 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-27 11:02:57 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.75ms
+2026-10-27 11:02:58 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-27 11:02:58 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 34.72ms
+2026-10-27 11:03:17 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-27 11:03:17 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 95.55ms
+2026-10-27 11:04:45 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-27 11:04:45 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 21.10ms
+2026-10-27 11:04:50 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-27 11:04:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 3.39ms
+2026-10-27 11:10:26 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 11:10:29 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 11:10:35 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 11:10:37 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 11:11:25 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 11:11:25 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-27 11:11:25 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 54.91ms
+2026-10-27 11:11:25 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 11:12:21 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-27 11:12:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 49.60ms
+2026-10-27 11:12:36 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-27 11:12:36 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 6.41ms
+2026-10-27 11:15:05 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 11:15:12 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 11:15:14 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-27 11:15:14 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.28ms
+2026-10-27 11:15:14 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-27 11:15:14 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 31.13ms
+2026-10-27 11:15:20 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-27 11:15:20 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 44.20ms
+2026-10-27 11:17:01 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-27 11:17:01 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 5.06ms
+2026-10-27 11:17:18 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/captcha/verify
+2026-10-27 11:17:18 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/captcha/verify status=200 8.05ms
+2026-10-27 11:21:26 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-27 11:21:26 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 6.97ms
+2026-10-27 12:56:18 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:56:20 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:56:33 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:56:35 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:57:08 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:57:10 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:57:27 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:57:29 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:57:43 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:57:45 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:57:45 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:57:47 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:57:53 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:57:56 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 12:59:16 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 12:59:19 | INFO     | src.main:lifespan:16 - Karry Agent starting | env=development
+2026-10-27 13:00:50 | INFO     | src.main:lifespan:19 - Karry Agent shutdown
+2026-10-27 13:00:53 | INFO     | src.main:lifespan:17 - Karry Agent starting | env=development
+2026-10-27 13:02:40 | INFO     | src.main:lifespan:20 - Karry Agent shutdown
+2026-10-27 18:42:10 | INFO     | src.main:lifespan:18 - Karry Agent starting | env=development
+2026-10-27 18:42:12 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-27 18:42:12 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.37ms
+2026-10-27 18:42:12 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-27 18:42:13 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 70.62ms
