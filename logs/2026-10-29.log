@@ -1,0 +1,7 @@
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 116.54ms
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 2.69ms
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 30.70ms
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-29 19:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 21.86ms

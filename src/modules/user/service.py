@@ -1,4 +1,7 @@
 from sqlalchemy.ext.asyncio import AsyncSession
+
+from src.core.base_schema import PageResult
+from src.core.deps import PageParams
 from src.core.exceptions import BizException
 from src.modules.role.repository import RoleRepository
 from src.modules.user.model import User
@@ -31,15 +34,9 @@ class UserService:
             raise BizException(code=404, message="用户不存在")
         return user
 
-    async def list_users(self, offset: int = 0, limit: int = 100):
-        return await self.repo.get_all(offset=offset, limit=limit)
-
     async def assign_roles(self, user_id: int, role_ids: list[int]) -> User:
-
         # 1. 查找用户，不存在抛异常
         user = await self.get_user(user_id)
-        if not user:
-            raise BizException(code=400, message="用户不存在")
 
         # 2. 通过 RoleRepository.get_by_ids(role_ids) 批量查询角色
         role_list = await self.role_repo.get_by_ids(role_ids)
@@ -51,13 +48,26 @@ class UserService:
         # 4. user.roles = role_list（整体替换）
         user.roles = role_list
 
-        # 5. flush + refresh
-        await self.repo.update(user)
+        # 5. flush + refresh，返回 user
+        return await self.repo.update(user)
 
-        # 6. 返回 user
-        return user
+    async def delete_user(self, user_id: int) -> None:
+        user = await self.get_user(user_id)
+        await self.repo.delete(user)
 
     async def get_user_with_roles(self, user_id: int) -> User:
         # 和 get_user 一样，但返回的 User 对象会自动带上 roles
-        user = await self.get_user(user_id)
-        return user
+        return await self.get_user(user_id)
+
+    async def list_users(self, params: PageParams) -> PageResult:
+        items, total = await self.repo.search_page(
+            offset=params.offset,
+            limit=params.page_size,
+            keyword=params.keyword,
+        )
+        return PageResult(
+            items=items,
+            total=total,
+            page=params.page,
+            page_size=params.page_size,
+        )

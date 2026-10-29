@@ -24,6 +24,11 @@ class Settings(BaseSettings):
     APP_ENV: str = "development"
     APP_DEBUG: bool = True
 
+    # ==================== JWT 配置 ====================
+    JWT_SECRET_KEY: SecretStr
+    JWT_ALGORITHM: str = "HS256"
+    JWT_EXPIRE_MINUTES: int = 30
+
     # ==================== MySQL 配置 ====================
 
     # Python 应用当前运行在 Windows 宿主机上，因此使用 127.0.0.1:3307。

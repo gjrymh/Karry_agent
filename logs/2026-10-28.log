@@ -1,0 +1,463 @@
+2026-10-28 16:58:47 | INFO     | src.main:lifespan:18 - Karry Agent starting | env=development
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 56.71ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions status=200 15.27ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /health
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /health status=200 2.49ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 100.38ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/permissions status=200 20.93ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/permissions status=200 19.77ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/permissions status=200 10.26ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/roles status=200 18.85ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/roles status=200 23.96ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> PUT /api/v1/roles/1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- PUT /api/v1/roles/1/permissions status=200 27.21ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 12.08ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 8.30ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 14.52ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 10.22ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=422 2.56ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions status=200 7.22ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions status=200 10.31ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions status=200 9.28ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions status=200 6.99ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/1
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/1 status=200 8.80ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> PUT /api/v1/roles/1
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- PUT /api/v1/roles/1 status=200 19.53ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> PUT /api/v1/roles/1
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- PUT /api/v1/roles/1 status=200 13.54ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/99999999
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/99999999 status=200 8.31ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/me
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/me status=401 1.57ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/roles/1
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/roles/1 status=200 18.10ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 10.99ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/roles/2
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/roles/2 status=200 11.49ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/permissions/1
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/permissions/1 status=200 8.62ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/permissions/2
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/permissions/2 status=200 7.23ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/permissions/3
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/permissions/3 status=200 8.97ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles status=200 7.38ms
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions
+2026-10-28 17:00:09 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions status=200 7.27ms
+2026-10-28 17:00:30 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users
+2026-10-28 17:00:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users status=200 13.93ms
+2026-10-28 17:00:30 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/roles
+2026-10-28 17:00:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/roles status=422 2.85ms
+2026-10-28 17:00:30 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users
+2026-10-28 17:00:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users status=422 1.73ms
+2026-10-28 21:37:55 | INFO     | src.main:lifespan:18 - Karry Agent starting | env=development
+2026-10-28 21:38:02 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /
+2026-10-28 21:38:02 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET / status=404 1.36ms
+2026-10-28 21:38:02 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /favicon.ico
+2026-10-28 21:38:02 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /favicon.ico status=404 0.71ms
+2026-10-28 21:38:16 | INFO     | src.main:lifespan:21 - Karry Agent shutdown
+2026-10-28 21:38:18 | INFO     | src.main:lifespan:18 - Karry Agent starting | env=development
+2026-10-28 21:38:58 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /
+2026-10-28 21:38:58 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET / status=404 0.74ms
+2026-10-28 21:39:10 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /docs
+2026-10-28 21:39:10 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 0.87ms
+2026-10-28 21:39:11 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-28 21:39:11 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 66.75ms
+2026-10-28 21:39:22 | INFO     | src.main:lifespan:21 - Karry Agent shutdown
+2026-10-28 21:39:45 | INFO     | src.main:lifespan:18 - Karry Agent starting | env=development
+2026-10-28 21:56:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /health
+2026-10-28 21:56:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /health status=200 2.41ms
+2026-10-28 22:04:59 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:04:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=422 8.69ms
+2026-10-28 22:04:59 | INFO     | src.main:lifespan:21 - Karry Agent shutdown
+2026-10-28 22:05:02 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:05:02 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 22:05:04 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:05:04 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 22:05:04 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 55.60ms
+2026-10-28 22:05:04 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 22:05:04 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 9.69ms
+2026-10-28 22:05:15 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:05:15 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 8.63ms
+2026-10-28 22:05:17 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 22:05:17 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 0.57ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/permissions
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/permissions status=200 17.09ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/roles
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/roles status=200 17.77ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> PUT /api/v1/roles/3/permissions
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- PUT /api/v1/roles/3/permissions status=200 17.62ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/users
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/users status=200 217.13ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> PUT /api/v1/users/1/roles
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- PUT /api/v1/users/1/roles status=200 17.75ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/1
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/1 status=200 8.60ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 12.05ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/users/1
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/users/1 status=200 12.76ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/1
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/1 status=200 5.70ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/roles/3
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/roles/3 status=200 11.37ms
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/permissions/4
+2026-10-28 22:05:30 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/permissions/4 status=200 6.46ms
+2026-10-28 22:08:55 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:08:55 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 8.31ms
+2026-10-28 22:08:56 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 22:08:56 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 7.14ms
+2026-10-28 22:08:56 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 22:08:56 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 5.66ms
+2026-10-28 22:11:03 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 22:11:03 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 1.10ms
+2026-10-28 22:22:38 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:22:38 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 7.83ms
+2026-10-28 22:22:38 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 22:22:38 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 6.08ms
+2026-10-28 22:22:38 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 22:22:38 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 5.90ms
+2026-10-28 22:22:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/me
+2026-10-28 22:22:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/me status=401 1.71ms
+2026-10-28 22:23:07 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
+2026-10-28 22:23:07 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 46.14ms
+2026-10-28 22:23:52 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 22:24:24 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:24:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:24:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=401 2.13ms
+2026-10-28 22:24:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 22:24:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=401 1.97ms
+2026-10-28 22:24:39 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 22:24:39 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=401 1.95ms
+2026-10-28 22:25:14 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 22:25:17 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:26:16 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 22:26:19 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:26:56 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 22:26:58 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/me
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/me status=200 4.76ms
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 3.31ms
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 3.64ms
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 22:27:42 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 2.99ms
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/me
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/me status=200 43.85ms
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 32.40ms
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 23.57ms
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 22:28:08 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 19.46ms
+2026-10-28 22:28:19 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/users
+2026-10-28 22:28:20 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/users status=200 312.76ms
+2026-10-28 22:28:21 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:28:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 12.43ms
+2026-10-28 22:28:21 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/me
+2026-10-28 22:28:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/me status=200 10.38ms
+2026-10-28 22:28:21 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/users/4
+2026-10-28 22:28:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/users/4 status=200 25.84ms
+2026-10-28 22:28:41 | INFO     | src.middlewares.logging:dispatch:11 - --> DELETE /api/v1/users/3
+2026-10-28 22:28:41 | INFO     | src.middlewares.logging:dispatch:14 - <-- DELETE /api/v1/users/3 status=200 20.50ms
+2026-10-28 22:28:41 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:28:41 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 9.22ms
+2026-10-28 22:30:43 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 22:30:43 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 0.88ms
+2026-10-28 22:48:01 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 1.26ms
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 0.56ms
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 1.16ms
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:51:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 0.94ms
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 2.61ms
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 2.35ms
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 146.78ms
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:52:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 8.46ms
+2026-10-28 22:52:21 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:52:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 8.97ms
+2026-10-28 22:52:21 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:52:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 6.99ms
+2026-10-28 22:53:13 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 22:53:13 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 22.79ms
+2026-10-28 22:53:27 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /health
+2026-10-28 22:53:27 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /health status=200 2.74ms
+2026-10-28 22:56:17 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:17 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.11ms
+2026-10-28 22:56:17 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:17 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.81ms
+2026-10-28 22:56:25 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:25 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.25ms
+2026-10-28 22:56:25 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:25 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.07ms
+2026-10-28 22:56:28 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:28 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.78ms
+2026-10-28 22:56:29 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:29 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.77ms
+2026-10-28 22:56:31 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:31 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.94ms
+2026-10-28 22:56:31 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:31 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.74ms
+2026-10-28 22:56:33 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:33 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.92ms
+2026-10-28 22:56:33 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:33 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.91ms
+2026-10-28 22:56:41 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 22:56:45 | INFO     | src.main:lifespan:19 - Karry Agent starting | env=development
+2026-10-28 22:56:49 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.26ms
+2026-10-28 22:56:49 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.88ms
+2026-10-28 22:56:50 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.72ms
+2026-10-28 22:56:51 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:51 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.81ms
+2026-10-28 22:56:51 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:51 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.78ms
+2026-10-28 22:56:51 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:51 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.96ms
+2026-10-28 22:56:59 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.84ms
+2026-10-28 22:56:59 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:56:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.94ms
+2026-10-28 22:57:21 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:21 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.82ms
+2026-10-28 22:57:22 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:22 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.93ms
+2026-10-28 22:57:22 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:22 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.92ms
+2026-10-28 22:57:23 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:23 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.97ms
+2026-10-28 22:57:24 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.25ms
+2026-10-28 22:57:24 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.87ms
+2026-10-28 22:57:24 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.15ms
+2026-10-28 22:57:26 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:26 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.97ms
+2026-10-28 22:57:26 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:26 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 1.05ms
+2026-10-28 22:57:26 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:26 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.91ms
+2026-10-28 22:57:28 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:28 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.85ms
+2026-10-28 22:57:28 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:28 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.87ms
+2026-10-28 22:57:28 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 22:57:28 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.80ms
+2026-10-28 22:58:05 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:58:05 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 16.00ms
+2026-10-28 22:58:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:58:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 6.36ms
+2026-10-28 22:58:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 22:58:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 5.38ms
+2026-10-28 23:00:41 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:00:41 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.83ms
+2026-10-28 23:00:41 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:00:41 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.57ms
+2026-10-28 23:01:28 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:01:28 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.72ms
+2026-10-28 23:01:49 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:01:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.78ms
+2026-10-28 23:01:49 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 23:01:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=400 0.68ms
+2026-10-28 23:01:50 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:01:50 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 5.61ms
+2026-10-28 23:02:42 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 23:02:44 | INFO     | src.main:lifespan:22 - Karry Agent starting | env=development
+2026-10-28 23:03:04 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:03:04 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 0.80ms
+2026-10-28 23:03:12 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:03:12 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:03:12 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 1.44ms
+2026-10-28 23:03:12 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 1.46ms
+2026-10-28 23:03:12 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:03:13 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 86.64ms
+2026-10-28 23:03:13 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:03:13 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 5.43ms
+2026-10-28 23:04:15 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:04:15 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 7.32ms
+2026-10-28 23:04:15 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:04:15 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 5.68ms
+2026-10-28 23:04:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:04:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 8.51ms
+2026-10-28 23:04:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:04:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 9.61ms
+2026-10-28 23:06:42 | INFO     | src.main:lifespan:22 - Karry Agent shutdown
+2026-10-28 23:06:44 | INFO     | src.main:lifespan:22 - Karry Agent starting | env=development
+2026-10-28 23:08:22 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:08:22 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 8.31ms
+2026-10-28 23:08:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:08:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 6.47ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/auth/login
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/auth/login status=200 0.84ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> POST /api/v1/auth/login
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- POST /api/v1/auth/login status=200 301.56ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/stats
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/stats status=200 0.80ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/trends
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/trends status=200 0.85ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/top-agents
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/resource-usage
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/recent-alerts
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/stats
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/top-agents status=200 4.81ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/trends
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/resource-usage status=200 5.35ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/recent-alerts status=200 5.04ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/top-agents
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/stats status=200 4.32ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/trends status=200 3.85ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/recent-alerts
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/top-agents status=200 3.18ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/recent-alerts status=200 2.28ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/top-agents
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/trends
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/stats
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/dashboard/resource-usage
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/resource-usage
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/top-agents status=404 3.48ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/trends status=404 3.60ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/stats status=404 3.75ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/recent-alerts
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/dashboard/resource-usage status=200 4.22ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/resource-usage status=404 4.67ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/recent-alerts status=404 3.25ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/top-agents
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/trends
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/stats
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/recent-alerts
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/resource-usage
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/top-agents status=404 3.59ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/trends status=404 3.78ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/stats status=404 4.09ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/recent-alerts status=404 3.77ms
+2026-10-28 23:08:37 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/resource-usage status=404 3.82ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/stats
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/stats status=404 1.25ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/trends
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/trends status=404 1.29ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/resource-usage
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/recent-alerts
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/top-agents
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/trends
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/resource-usage status=404 2.94ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/recent-alerts status=404 3.24ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/top-agents status=404 3.31ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/stats
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/trends status=404 4.50ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/resource-usage
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/stats status=404 3.52ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/recent-alerts
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/dashboard/top-agents
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/resource-usage status=404 6.59ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/recent-alerts status=404 5.05ms
+2026-10-28 23:08:44 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/dashboard/top-agents status=404 3.90ms
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/roles/search
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/roles/search
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/roles/search status=200 1.81ms
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/roles/search status=200 1.55ms
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 32.49ms
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 23:08:49 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 25.75ms
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/users/search
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 1.54ms
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/users/search status=200 1.87ms
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 22.88ms
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/users/search
+2026-10-28 23:08:52 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/users/search status=200 20.23ms
+2026-10-28 23:08:59 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 23:08:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 28.19ms
+2026-10-28 23:08:59 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 23:08:59 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 25.00ms
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/permissions/search
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/permissions/search status=200 0.85ms
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/permissions/search
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/permissions/search status=200 0.90ms
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 20.53ms
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/permissions/search
+2026-10-28 23:09:00 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/permissions/search status=200 14.06ms
+2026-10-28 23:09:04 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 23:09:04 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 21.37ms
+2026-10-28 23:09:04 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/roles/search
+2026-10-28 23:09:04 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/roles/search status=200 20.08ms
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 1.61ms
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 1.63ms
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 7.46ms
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:09:40 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 5.85ms
+2026-10-28 23:11:55 | INFO     | src.main:lifespan:25 - Karry Agent shutdown
+2026-10-28 23:11:57 | INFO     | src.main:lifespan:22 - Karry Agent starting | env=development
+2026-10-28 23:12:19 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:12:19 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 0.96ms
+2026-10-28 23:12:19 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:12:19 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=400 0.66ms
+2026-10-28 23:12:31 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:12:31 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 75.18ms
+2026-10-28 23:12:31 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:12:31 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 6.19ms
+2026-10-28 23:16:42 | INFO     | src.main:lifespan:25 - Karry Agent shutdown
+2026-10-28 23:16:45 | INFO     | src.main:lifespan:22 - Karry Agent starting | env=development
+2026-10-28 23:17:33 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:17:33 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 9.60ms
+2026-10-28 23:17:33 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:17:33 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 12.08ms
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:11 - --> OPTIONS /api/v1/captcha
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 2.93ms
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:14 - <-- OPTIONS /api/v1/captcha status=200 2.67ms
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 11.30ms
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:18 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 10.57ms
+2026-10-28 23:27:22 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:22 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 8.65ms
+2026-10-28 23:27:22 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:22 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 10.62ms
+2026-10-28 23:27:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 9.12ms
+2026-10-28 23:27:24 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:24 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 8.63ms
+2026-10-28 23:27:25 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:25 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 10.36ms
+2026-10-28 23:27:25 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:27:25 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 9.92ms
+2026-10-28 23:28:56 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:28:56 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 10.67ms
+2026-10-28 23:28:56 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /api/v1/captcha
+2026-10-28 23:28:56 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /api/v1/captcha status=200 10.65ms

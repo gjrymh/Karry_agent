@@ -59,3 +59,4 @@
 2026-10-27 18:42:12 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /docs status=200 1.37ms
 2026-10-27 18:42:12 | INFO     | src.middlewares.logging:dispatch:11 - --> GET /openapi.json
 2026-10-27 18:42:13 | INFO     | src.middlewares.logging:dispatch:14 - <-- GET /openapi.json status=200 70.62ms
+2026-10-27 18:49:21 | INFO     | src.main:lifespan:21 - Karry Agent shutdown
